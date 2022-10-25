@@ -1,0 +1,52 @@
+.App {
+  width: 300px;
+    height: 500px;
+    background-color: white;
+   border-radius: 15px;
+   border: solid 0.4px rgba(0, 0, 0, 0.164);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;     
+    margin: auto;
+    /* Parent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px black;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.076);
+}
+
+.header{
+  width: 270px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: -260px;
+}
+
+.qr{
+ width: 270px;
+  border-radius: 15px;  
+
+}
+
+.title{
+  font-size: 20px;
+  color:hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+p{
+  font-size: 15px;
+  color:hsl(218, 44%, 22%);
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.footer{
+  padding: 10px;
+ 
+  text-align: center;
+}
